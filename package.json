@@ -1,0 +1,21 @@
+{
+  "name": "LearningToJavascriptTheCorrectWay",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start-simple": "node src/simple.js",
+    "test": ""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/morneode/LearningToJavascriptTheCorrectWay.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/morneode/LearningToJavascriptTheCorrectWay/issues"
+  },
+  "homepage": "https://github.com/morneode/LearningToJavascriptTheCorrectWay#readme"
+}
