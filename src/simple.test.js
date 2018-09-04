@@ -1,0 +1,5 @@
+describe('simple.js', () => {
+    test('one plus one is two', () => {
+        expect(1 + 1).toBe(2);
+    })
+})

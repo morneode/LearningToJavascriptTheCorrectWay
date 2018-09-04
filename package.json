@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "start-simple": "node src/simple.js",
-    "test": ""
+    "all-tests": "jest",
+    "all-tests-continuously": "jest --watch"
   },
   "repository": {
     "type": "git",
@@ -17,5 +18,8 @@
   "bugs": {
     "url": "https://github.com/morneode/LearningToJavascriptTheCorrectWay/issues"
   },
-  "homepage": "https://github.com/morneode/LearningToJavascriptTheCorrectWay#readme"
+  "homepage": "https://github.com/morneode/LearningToJavascriptTheCorrectWay#readme",
+  "devDependencies": {
+    "jest": "^23.5.0"
+  }
 }
