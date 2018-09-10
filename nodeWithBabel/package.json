@@ -1,0 +1,35 @@
+{
+  "name": "nodeWithBabel",
+  "version": "1.0.0",
+  "description": "",
+  "main": "target/simple.js",
+  "scripts": {
+    "prestart": "npm run build",
+    "build": "babel src -d target",
+    "start": "node target/simple.js",
+    "test": "jest",
+    "test--watch": "jest --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/morneode/LearningToJavascriptTheCorrectWay.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/morneode/LearningToJavascriptTheCorrectWay/issues"
+  },
+  "homepage": "https://github.com/morneode/LearningToJavascriptTheCorrectWay#readme",
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-jest": "^23.4.2",
+    "babel-preset-env": "^1.7.0",
+    "jest": "^23.5.0"
+  },
+  "jest": {
+    "transform": {
+      "^.+\\.jsx?$": "babel-jest"
+    }
+  }
+}
