@@ -1,12 +1,24 @@
 # LearningToJavascriptTheCorrectWay
 
-##For starting a project
+lang|Scala/Java|C#|Js
+buildtool|sbt/maven|Nuget|npm
+environment|JVM|.NET|NodeJs
+
+## NodeJs
+### package.json
+This file is similar to a build.sbt or a maven file.  It is used to list the required libraries, the project structure, scripts to run the project/tests.
+
+### For getting the libraries defined in package.json
+npm install
+
+### To upgrade the packages
+npm install --upgrade
+
+### For starting a project
 npm init -y
 
-## To run the project
+### To run the project
 npm run start-simple // this was defined in package.json
-
-npm install --upgrade
 
 ## Tests
 ### Install development dependancies
@@ -22,3 +34,4 @@ npm run all-tests-continuously // see package.json
 ### Update a package
 npm install jest --upgrade -D // upgrade a specific package
 npm update //this will update the minor verion if there was a ^
+
