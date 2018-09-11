@@ -1,12 +1,10 @@
 {
-  "name": "nodeWithBabel",
+  "name": "nodeSimple",
   "version": "1.0.0",
   "description": "",
-  "main": "target/simple.js",
+  "main": "src/simple.js",
   "scripts": {
-    "prestart": "npm run build",
-    "build": "babel src -d target",
-    "start": "node target/simple.js",
+    "start": "node src/simple.js",
     "test": "jest",
     "test--watch": "jest --watch"
   },
@@ -22,18 +20,6 @@
   },
   "homepage": "https://github.com/morneode/LearningToJavascriptTheCorrectWay#readme",
   "devDependencies": {
-    "babel-cli": "^6.26.0",
-    "babel-jest": "^23.4.2",
-    "babel-preset-env": "^1.7.0",
     "jest": "^23.5.0"
-  },
-  "jest": {
-    "transform": {
-      "^.+\\.jsx?$": "babel-jest"
-    }, 
-    "testMatch": [
-      "**/src/**/__tests__/**/*.js?(x)",
-      "**/src/**/?(*.)+(spec|test).js?(x)"
-    ]
   }
 }

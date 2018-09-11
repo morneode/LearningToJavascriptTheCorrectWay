@@ -3,11 +3,11 @@ export const value2 = (
     'hello world'
 );
 
-export function methHeadClassic() {
+export function methodClassic() {
     return `${value2}, i want some meth head`;
 }
 
-export const methHead = () => {
+export const method = () => {
     return 'newer way of functioning';
 }
 

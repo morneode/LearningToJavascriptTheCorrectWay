@@ -12,12 +12,12 @@ describe('simple.js', () => {
     });
 });
 
-describe('methHead()', () => {
+describe('method()', () => {
     test('is 99.9 percent pure', () => {
-        expect(Simple.methHead()).toBe('newer way of functioning');
+        expect(Simple.method()).toBe('newer way of functioning');
     });
 
     test('is 99.9 percent classic', () => {
-        expect((0, _simple.methHeadClassic)()).toBe('hello world, i want some meth head');
+        expect((0, _simple.methodClassic)()).toBe('hello world, i want some meth head');
     });
 });

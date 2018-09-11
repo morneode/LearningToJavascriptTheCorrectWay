@@ -1,5 +1,4 @@
-import * as Simple from "./simple";
-import { methodClassic } from "./simple";
+var simple = require('./simple');
 
 describe('simple.js', () => {
     test('one plus one is two', () => {
@@ -9,10 +8,10 @@ describe('simple.js', () => {
 
 describe('method()', () => {
     test('is 99.9 percent pure', () => {
-        expect(Simple.method()).toBe('newer way of functioning');
+        expect(simple.method()).toBe('newer way of functioning');
     });
 
     test('is 99.9 percent classic', () => {
-        expect(methodClassic()).toBe('hello world, i want some meth head');
+        expect(simple.methodClassic()).toBe('hello world, i want some meth head');
     });
 });

@@ -3,15 +3,15 @@
 Object.defineProperty(exports, "__esModule", {
     value: true
 });
-exports.methHeadClassic = methHeadClassic;
+exports.methodClassic = methodClassic;
 const value = exports.value = 'hello world';
 const value2 = exports.value2 = 'hello world';
 
-function methHeadClassic() {
+function methodClassic() {
     return `${value2}, i want some meth head`;
 }
 
-const methHead = exports.methHead = () => {
+const method = exports.method = () => {
     return 'newer way of functioning';
 };
 
