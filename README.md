@@ -20,6 +20,10 @@ npm init -y
 ### To run the project
 npm run start-simple // this was defined in package.json
 
+## gettings started with react
+npm install react react-dom --save
+npm install parcel-bundler --save-dev
+
 ## Tests
 ### Install development dependancies
 
